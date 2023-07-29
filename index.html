@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-form">
+            <div class="rf">
+                <h3>Registration Form</h3>
+                <div class="line"></div>
+            </div>
+
+            <div class="rp">
+                <p>Registration Code<sup><span class="span">*</span></sup></p><br>
+                <h4>Paste Reg. code here.</h4>
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <form action="good">
+            <main class="main">
+                
+                <div class="pad">
+                    <h2>Personal Details</h2>
+                    
+                    <div class="div0">
+                        <div class="div1">
+
+                            First Name<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter first name" name="first name">
+                            <br><br>
+
+                            Gender<sup><span class="span">*</span></sup><br>
+                                <input class="list" list="gender" id="Select gender"  name="gender">
+                                <datalist id="gender">
+                                    <option value="Male"></option>
+                                    <option value="Female"></option>
+                                    <option value="Others"></option>
+                                </datalist>
+                                <br><br>
+
+                            Religion<sup><span class="span">*</span></sup><br>
+                                <input class="list" list="religion" id="What is your religion?"  name="religion">
+                                <datalist id="religion">
+                                    <option value="Islam"></option>
+                                    <option value="Christainity"></option>
+                                    <option value="Traditionalist"></option>
+                                    <option value="Others"></option>
+                                </datalist>
+                                <br><br>
+
+                            Local Govt. Area<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your LGA" name="LGA">
+                            <br><br>
+                        </div>
+                
+    
+                        <div class="div2">
+                            Last Name<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter last name" name="last name">
+                                <br><br>
+
+                            Date of Birth<sup><span class="span">*</span></sup><br>
+                                <input class="list" type="date" placeholder="dd-----yyyy"  name="birth of birth">
+                                <br><br>
+
+                            Nationality<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your Nationality" name="Nationality">
+                                <br><br>
+
+                            Residential <sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter address of residence" name="residence">
+                                <br><br>
+                        </div>
+    
+                        <div class="div3">
+                            Other Names <br>
+                                <input class="text" type="text" placeholder="Enter other names" name="other names">
+                                <br><br>
+
+                            Age<sup><span class="span">*</span></sup><br>
+                                <input type="number" class="list" list="age" placeholder="Select your age"  name="age">
+                                <br><br>
+
+                            State of Origin<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your state of origin" name="state of origin">
+                                <br><br>
+
+                            National Identification Number (NIN)<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your NIN if available" name="NIN">
+                                <br><br>
+                        </div><br>
+
+                    </div>
+
+                    <h2>Admission Resquest Info</h2>
+                    <div class="div0">
+                        <div class="div1">
+
+                            Class Completed<sup><span class="span">*</span></sup><br>
+                                <input class="list" list="class" id="Select highest class completed"  name="class">
+                                <datalist id="class">
+                                    <option value="grade 1"></option>
+                                    <option value="grade 2"></option>
+                                    <option value="grade 3"></option>
+                                    <option value="grade 4"></option>
+                                    <option value="grade 5"></option>
+                                    <option value="grade 6"></option>
+                                    <option value="grade 7"></option>
+                                    <option value="grade 8"></option>
+                                    <option value="grade 9"></option>
+                                    <option value="grade 10"></option>
+                                    <option value="grade 11"></option><br><br>
+                                </datalist>
+                        </div>
+    
+                        <div class="div2">
+                            Class into which Admission is Sought<sup><span class="span">*</span></sup><br>
+                                <input class="list" list="class" placeholder="Class applying for"  name="class">
+                                <datalist id="class">
+                                    <option value="grade 1"></option>
+                                    <option value="grade 2"></option>
+                                    <option value="grade 3"></option>
+                                    <option value="grade 4"></option>
+                                    <option value="grade 5"></option>
+                                    <option value="grade 6"></option>
+                                    <option value="grade 7"></option>
+                                    <option value="grade 8"></option>
+                                    <option value="grade 9"></option>
+                                    <option value="grade 10"></option>
+                                    <option value="grade 11"></option><br><br>
+                                </datalist>
+                        </div>
+    
+                        <div class="div3">
+                            Transfer certificate/Testimonial<sup><span class="span">*</span></sup><br>
+                                <input class="list" list="certificate" placeholder="Select Option"  name="certificate">
+                                <datalist id="certificate">
+                                    <option value="1"></option>
+                                    <option value="2"></option>
+                                    <option value="3"></option>
+                                    <option value="4"></option>
+                                    <option value="5"></option>
+                                    <option value="6"></option>
+                                    <option value="7"></option>
+                                    <option value="8"></option>
+                                    <option value="9"></option>
+                                    <option value="10"></option>
+                                    <option value="11"></option><br><br>
+                                </datalist>
+                        </div><br>
+
+                    </div>
+
+                    <h2>Family Information</h2>
+                    <div class="div0">
+                        <div class="div1">
+
+                            Father's Name<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your father's name" name="father's name">
+                                <br><br>
+
+                            Telephone<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter phone number" name="phone number">
+                                <br><br>
+
+                            Office Address<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Office address" name="office address">
+                                <br><br>    
+                        </div>
+
+                        <div class="div2">
+                            Occupation<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your father's occupation" name="occupation">
+                                <br><br>
+
+                            Mother's Name<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your mother's name" name="mother's name">
+                                <br><br>
+
+                            Telephone<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter phone number" name="phone number">
+                                <br><br>
+                        </div>
+
+                        <div class="div3">
+                            Office Address<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Office address" name="office address">
+                                <br><br>
+                            
+                            Mother's Name<sup><span class="span">*</span></sup><br>
+                                <input class="text" type="text" placeholder="Enter your mother's name" name="mother's name">
+                                <br><br>
+
+                            With whom are you living?<sup><span class="span">*</span></sup><br>
+                                <input class="list" list="living" id="Select Option"  name="living">
+                                <datalist id="living">
+                                    <option value="Parents"></option>
+                                    <option value="Father"></option>
+                                    <option value="Mother"></option>
+                                    <option value="Grandparents"></option>
+                                    <option value="Uncle"></option>
+                                    <option value="Aunt"></option>
+                                    <option value="Family Friend"></option>
+                                    <option value="Sister"></option>
+                                    <option value="Brother"></option>
+                                    <option value="Great Grandparents"></option>
+                                </datalist>
+                        </div>  
+                    </div>
+                
+                    <h2>School Information</h2>
+                    <div class="note">
+                        This will help us know how to give your child any needed attention. <br><br>
+                        <h5>Has applicant ever been expelled, dismissed, suspended, or refused of admission to another school?<br></h5>
+                        <br>
+                        <input type="radio" name="choose" value="yes">Yes
+                        <input type="radio" name="choose" value="no">No <br><br>
+
+                        <input class="txt" type="text" placeholder="If yes, explain here."> <br><br>
+
+                        <h5>Has applicant ever had disciplinary difficulty at school?</h5>
+                        <br>
+                        <input type="radio" name="choose" value="yes">Yes
+                        <input type="radio" name="choose" value="no">No <br><br>
+
+                        <input class="txt" type="text" placeholder="If yes, details here."> <br><br>
+                    
+                        <h5>Does applicant have a junvile arrest record?</h5>
+                        <br>
+                        <input type="radio" name="choose" value="yes">Yes
+                        <input type="radio" name="choose" value="no">No <br><br>
+                    
+
+                        <input class="txt" type="text" placeholder="If yes, explain here."> <br><br>
+
+                        <h5>Has applicant failed an academic subject in school?</h5>
+                        <br>
+                        <input type="radio" name="choose" value="yes">Yes
+                        <input type="radio" name="choose" value="no">No <br><br>
+
+                        <input class="txt" type="text" placeholder="If yes, explain here."> <br><br>
+                    </div>
+
+                    <div class="dave">Please indicate academic level of applicant's</div>previous work<sup><span class="span">*</span></sup><br>
+                        <input class="list" list="work" placeholder="Select option"  name="work">
+                        <datalist id="work">
+                            <option value="Excellent"></option>
+                            <option value="Very good"></option>
+                            <option value="Good"></option>
+                            <option value="Fair"></option>
+                            <option value="Poor"></option>
+                            <option value="Very poor"></option>
+                            <option value="Others"></option>
+                        </datalist> <br><br>
+        
+                    <h2>General Information</h2><br>
+                    <div class="dave">How did you receive information about the school?<br></div>
+                    <br>
+                    <input class="txt" type="text" placeholder="Type here."> <br><br>
+                    <div class="dave">Kindly upload all or any of the following documents available. <br></div>
+                    <br>
+                    <div class="div0">
+                        <div class="div1">
+
+                            Passport Photo<sup><span class="span">*</span></sup><br>
+                                <div class="myfile"><input type="file" placeholder="No file chosen" name="file"></div>
+                                <br><br>
+
+                            First School Living Certificate<sup><span class="span">*</span></sup><br>
+                                <div class="myfile"><input type="file" placeholder="No file chosen" name="file"></div>
+                                <br><br>
+                        </div>
+
+                        <div class="div2">
+                            Birth Certificate<sup><span class="span">*</span></sup><br>
+                                <div class="myfile"><input type="file" placeholder="No file chosen" name="file"></div>
+                            <br><br>
+
+                            Attestation Letter<sup><span class="span">*</span></sup><br>
+                                <div class="myfile"><input type="file" placeholder="No file chosen" name="file"></div>
+                            <br><br>
+                        </div>
+
+                        <div class="div3">
+                            Latest Result<sup><span class="span">*</span></sup><br>
+                                <div class="myfile"><input type="file" placeholder="No file chosen" name="file"></div>
+                            <br><br>
+
+                            Transfer Letter (JSS2 only):<br>
+                                <div class="myfile"><input type="file" placeholder="No file chosen" name="file"></div>
+                            <br><br>
+                        </div>
+                </div>
+        </form>
+                <h1>TERMS AND CONDITIONS</h1>
+                    <div class="terms">
+                        <ol>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est ducimus illum ea veritatis dignissimos tempore nulla, molestiae maiores animi eos ipsum enim eaque rerum voluptatem possimus voluptatibus laudantium? Ut?</li>
+                        </ol>
+                    </div><br>
+
+                <div class="accept">
+                    <input class="checker" type="checkbox" name="mycheckbox" value="checked">I Accept.</div>
+                <br>
+                <button class="submit">Submit >>></button>
+            </main><br>
+    </div>    
+</body>
+</html>
