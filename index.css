@@ -1,175 +1,177 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    color: grey;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    background-color: rgb(250, 250, 253);
+body {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  background-color: rgb(250, 250, 253);
 }
 
-header{
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-    background-color: whitesmoke;
-    width: 100%;
-    position: fixed;
+header {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-color: whitesmoke;
+  width: 100%;
+  position: fixed;
 }
 
-.myfile{
-    width: 90%;
-    height: 35px;
-    border: 1px solid black;
-    cursor: pointer;
-    padding-left: 30px;
+.myfile {
+  width: 90%;
+  height: 35px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding-left: 30px;
 }
 
-.nav-form{
-    color: black;
-    font-size: 17px;
-    background-color: whitesmoke;
-    width: 100%;
-    display: flex;
-    padding: 10px 15px;
+.nav-form {
+  color: black;
+  font-size: 17px;
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  padding: 10px 15px;
 }
 
-.rf{
-    width: 45%;
-    height: 100px;
-    background-color: whitesmoke;
+.rf {
+  width: 45%;
+  height: 100px;
+  background-color: whitesmoke;
 }
 
-h3{
-    background-color: whitesmoke;
-    margin-top: 35px;
+h3 {
+  background-color: whitesmoke;
+  margin-top: 35px;
 }
 
-.line{
-    width: 25px;
-    height: 3px;
-    background-color: blue;
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: blue;
 }
 
-.rp{
-    margin-top: 35px;
+.rp {
+  margin-top: 35px;
 }
 
-p{
-    color: skyblue;
-    background-color: whitesmoke;
-    margin-left: 20px;
+p {
+  color: skyblue;
+  background-color: whitesmoke;
+  margin-left: 20px;
 }
 
-.span{
-    color: red;
+.span {
+  color: red;
 }
 
-h4{
-    font-size: 20px;
-    background-color: whitesmoke;
-    color: rgb(156, 153, 153);
+h4 {
+  font-size: 20px;
+  background-color: whitesmoke;
+  color: rgb(156, 153, 153);
 }
 
-.main{
-    padding-top: 120px;
-    font-size: 16px;
+.main {
+  padding-top: 120px;
+  font-size: 16px;
 }
 
-.div0{
-    display: flex;
+.div0 {
+  display: flex;
 }
 
-.text{
-    width: 400px;
-    height: 40px;
-    padding-left: 20px;
+.text {
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
 }
 
-.list{
-    width: 400px;
-    height: 40px;
-    padding-left: 20px;
+.list {
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
 }
 
-.div1, .div2, .div3{
-    width: 33%;
+.div1,
+.div2,
+.div3 {
+  width: 33%;
 }
 
-.note{
-    font-size: 15px;
-    color: black;
+.note {
+  font-size: 15px;
+  color: black;
 }
 
-h5{
-    color: black;
-    font-size: 15px;
+h5 {
+  color: black;
+  font-size: 15px;
 }
 
-.txt{
-    width: 1280px;
-    height: 40px;
-    padding-left: 20px;
+.txt {
+  width: 1280px;
+  height: 40px;
+  padding-left: 20px;
 }
 
-button{
-    margin-top: 5px;
+button {
+  margin-top: 5px;
 }
 
-h1{
-    color: black;
-    font-size: 20px;
+h1 {
+  color: black;
+  font-size: 20px;
 }
 
-.checker{
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+.checker {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
 
-.accept{
-    font-size: 18px;
-    color: black;
-    font-weight: 800;
+.accept {
+  font-size: 18px;
+  color: black;
+  font-weight: 800;
 }
-.submit{
-    width: 640px;
-    height: 40px;
-    background-color: hwb(197 28% 12%);
-    cursor: pointer;
-    color: white;
-    margin-left: 320px;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-.pad{
-    padding: 10px 15px;
-    display: flexbox;
-}
-.hi{
-    font-size: 16px;
-    color: black;
-    font-weight: 200;
-}
-.dave{
-    color: black;
-    font-weight: bold;
+.submit {
+  width: 640px;
+  height: 40px;
+  background-color: hwb(197 28% 12%);
+  cursor: pointer;
+  color: white;
+  margin-left: 320px;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
-.terms{
-    color: black;
-    line-height: 20px;
+.pad {
+  padding: 10px 15px;
+  display: flexbox;
+}
+.hi {
+  font-size: 16px;
+  color: black;
+  font-weight: 200;
+}
+.dave {
+  color: black;
+  font-weight: bold;
 }
 
-.terms ol{
-    padding-left: 15px;
+.terms {
+  color: black;
+  line-height: 20px;
+}
+
+.terms ol {
+  padding-left: 15px;
 }
 
 #container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
