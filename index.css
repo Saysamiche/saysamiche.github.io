@@ -9,6 +9,8 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   background-color: rgb(250, 250, 253);
+  width: 100%;
+  height: 100dvh;
 }
 
 header {
@@ -19,15 +21,6 @@ header {
   width: 100%;
   position: fixed;
 }
-
-.myfile {
-  width: 90%;
-  height: 35px;
-  border: 1px solid black;
-  cursor: pointer;
-  padding-left: 30px;
-}
-
 .nav-form {
   color: black;
   font-size: 17px;
@@ -42,28 +35,66 @@ header {
   height: 100px;
   background-color: whitesmoke;
 }
-
 h3 {
   background-color: whitesmoke;
   margin-top: 35px;
 }
-
 .line {
   width: 25px;
   height: 3px;
   background-color: blue;
 }
-
 .rp {
   margin-top: 35px;
 }
 
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1600px;
+  margin: auto;
+}
+form {
+  margin-top: 120px;
+  width: 100%;
+}
+
+.pad {
+  padding: 10px 15px;
+}
+.div0 {
+  display: flex;
+  width: 100%;
+}
+.div1,
+.div2,
+.div3 {
+  width: 32%;
+  margin: 0 auto;
+}
+.div-3 {
+  margin-top: 4px;
+}
+.text,
+.list {
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.myfile {
+  width: 100%;
+  height: 35px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding-left: 5px;
+}
 p {
   color: skyblue;
   background-color: whitesmoke;
   margin-left: 20px;
 }
-
 .span {
   color: red;
 }
@@ -73,84 +104,63 @@ h4 {
   background-color: whitesmoke;
   color: rgb(156, 153, 153);
 }
-
-.main {
-  padding-top: 120px;
-  font-size: 16px;
-}
-
-.div0 {
-  display: flex;
-}
-
-.text {
-  width: 400px;
-  height: 40px;
-  padding-left: 20px;
-}
-
-.list {
-  width: 400px;
-  height: 40px;
-  padding-left: 20px;
-}
-
-.div1,
-.div2,
-.div3 {
-  width: 33%;
-}
-
 .note {
   font-size: 15px;
   color: black;
 }
-
 h5 {
   color: black;
   font-size: 15px;
 }
-
-.txt {
-  width: 1280px;
+input.txt {
+  width: 100%;
   height: 40px;
   padding-left: 20px;
 }
-
 button {
   margin-top: 5px;
 }
-
 h1 {
   color: black;
   font-size: 20px;
 }
-
+input {
+  margin: 5px 0;
+}
+.radio-class {
+  margin: 0 8px;
+  width: 16px;
+  height: 16px;
+}
 .checker {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
-
+.jss2 {
+  margin-top: 4px;
+}
 .accept {
   font-size: 18px;
   color: black;
   font-weight: 800;
+  display: inline-block;
+  /* margin-left: -200px; */
+}
+.accepted {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 .submit {
-  width: 640px;
+  width: 100%;
   height: 40px;
   background-color: hwb(197 28% 12%);
   cursor: pointer;
   color: white;
-  margin-left: 320px;
   font-weight: bolder;
   font-size: 20px;
-}
-
-.pad {
-  padding: 10px 15px;
-  display: flexbox;
 }
 .hi {
   font-size: 16px;
@@ -161,17 +171,67 @@ h1 {
   color: black;
   font-weight: bold;
 }
-
 .terms {
   color: black;
   line-height: 20px;
 }
-
 .terms ol {
   padding-left: 15px;
 }
-
-#container {
-  display: flex;
-  flex-wrap: wrap;
+.terms ol li {
+  font-size: 16px;
+  margin: 15px auto;
+}
+.footer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 818px) {
+  body {
+    overflow-x: hidden;
+  }
+  #container {
+    width: 100%;
+    max-width: 908px;
+    padding: 0 15px;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .div0 {
+    display: block;
+  }
+  .div1,
+  .div2,
+  .div3 {
+    width: 100%;
+    margin: 5px;
+  }
+}
+@media (max-width: 430px) {
+  .nav-form {
+    display: block;
+    height: 120px;
+  }
+  .rf {
+    width: 100%;
+    height: 50px;
+    /* text-align: center; */
+  }
+  h3 {
+    margin-top: 5px;
+  }
+  /* .line {
+    text-align: center;
+    margin-left: 28%;
+  } */
+  .rp {
+    margin-top: -20px;
+    text-align: center;
+  }
+  .terms ol li {
+    font-size: 15px;
+  }
 }
